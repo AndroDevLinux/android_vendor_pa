@@ -16,7 +16,7 @@
 ifeq (full_nypon,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := full_npyon
+OVERLAY_TARGET := full_nypon
 
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true

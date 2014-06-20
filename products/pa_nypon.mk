@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (full_nypon,$(TARGET_PRODUCT))
+ifeq (pa_nypon,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := full_nypon
+OVERLAY_TARGET := hdpi
 
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true
@@ -28,7 +28,7 @@ include vendor/pa/main.mk
 $(call inherit-product, device/sony/nypon/full_nypon.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := full_nypon
+PRODUCT_NAME := pa_nypon
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := AOSPA on Xperia P

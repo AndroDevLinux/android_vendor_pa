@@ -45,4 +45,7 @@ endif
 ifeq (pa_nypon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_nypon.mk
 endif
+ifeq (pa_kumquat,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_kumquat.mk
+endif
 

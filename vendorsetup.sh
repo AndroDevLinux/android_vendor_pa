@@ -9,3 +9,4 @@ add_lunch_combo pa_maguro-userdebug
 add_lunch_combo pa_toro-userdebug
 add_lunch_combo pa_toroplus-userdebug
 add_lunch_combo pa_nypon-eng
+add_lunch_combo pa_kumquat-eng

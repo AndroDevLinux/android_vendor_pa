@@ -48,4 +48,10 @@ endif
 ifeq (pa_kumquat,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_kumquat.mk
 endif
+ifeq (pa_pepper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_pepper.mk
+endif
+ifeq (pa_lotus,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_lotus.mk
+endif
 
